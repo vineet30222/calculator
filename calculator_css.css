@@ -1,0 +1,156 @@
+body
+{
+	margin: 0px;
+	padding:0px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+
+}
+
+#heading
+{
+	font-size: 100px;
+}
+
+#Element
+{
+	width: 50%;
+	height: auto;
+		border: 4px solid yellow;
+
+}
+
+#display-1
+{
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-end;
+	align-items: flex-end;
+	font-size: 15px;
+	background: #4C4A49;
+	color: white;
+}
+
+#display
+{
+	width: 100%;
+	height: 55px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	align-items: center;
+	font-size: 60px;
+	background: #4C4A49;
+	color: white;
+
+}
+
+#button-set
+{
+	width: 100%;
+	height: 400px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+#row
+{
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.button
+{
+	width: 25%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	background: 	#232b2b;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: white;
+}
+
+.button:hover
+{
+	width: 25%;
+	height: 100%;
+	background:#414a4c;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: white;
+}
+
+
+.button-0
+{
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	background: #232b2b;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: white;
+}
+
+.button-0:hover
+{
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	background: #414a4c;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: white;
+}
+
+.button-e
+{
+	width: 25%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	background: #32CD32;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: white;
+}
+
+.button-e:hover
+{
+	width: 25%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	background:green;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: white;
+}
